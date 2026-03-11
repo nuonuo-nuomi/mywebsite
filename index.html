@@ -1,13 +1,147 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>测试应用</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>诺诺只诺诺 - 高效便捷的移动应用服务</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft Yahei", sans-serif;
+        }
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        /* 头部导航 */
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem 5%;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        /* 主要内容 */
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 5%;
+        }
+        .section {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .section h2 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 0.5rem;
+        }
+        /* 产品展示 */
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+        .product-card {
+            border: 1px solid #eaeaea;
+            border-radius: 8px;
+            padding: 1rem;
+            text-align: center;
+        }
+        .product-card h3 {
+            color: #3498db;
+            margin-bottom: 0.5rem;
+        }
+        /* 用户协议 & 联系方式 */
+        .agreement, .contact {
+            font-size: 0.9rem;
+            color: #666;
+        }
+        /* 底部版权 */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 5%;
+            margin-top: 3rem;
+        }
+        footer a {
+            color: #3498db;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-    <h1>测试应用：MyTestApp</h1>
-<p>本应用为微信开放平台内部测试用途，无实际商业服务。</p>
-<p>（测试账号）</p>
+    <header>
+        <div class="logo">诺诺只诺诺</div>
+    </header>
 
+    <div class="container">
+        <!-- 首页 & 应用介绍 -->
+        <section class="section">
+            <h2>应用介绍</h2>
+            <p>「诺诺只诺诺」是一款为用户提供高效便捷服务的移动应用，致力于简化日常操作流程，提升用户体验。我们坚持以用户为中心，打造安全、稳定、易用的移动工具。</p>
+        </section>
+
+        <!-- 产品展示 -->
+        <section class="section">
+            <h2>产品展示</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <h3>便捷登录</h3>
+                    <p>支持微信一键登录，快速验证身份，保障账号安全。</p>
+                </div>
+                <div class="product-card">
+                    <h3>数据同步</h3>
+                    <p>多端数据实时同步，随时随地访问你的重要信息。</p>
+                </div>
+                <div class="product-card">
+                    <h3>个性化服务</h3>
+                    <p>根据用户习惯定制专属服务，满足多样化需求。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 用户协议 -->
+        <section class="section agreement">
+            <h2>用户协议</h2>
+            <p>欢迎使用「诺诺只诺诺」应用。在使用本应用前，请仔细阅读以下协议：</p>
+            <ul>
+                <li>用户需保证提供的个人信息真实有效，不得冒用他人信息。</li>
+                <li>本应用尊重用户隐私，严格保护用户数据安全，未经允许不会泄露给第三方。</li>
+                <li>用户不得利用本应用从事违法违规活动，否则将承担相应法律责任。</li>
+                <li>本应用保留更新服务条款的权利，更新后将在页面公示。</li>
+            </ul>
+        </section>
+
+        <!-- 联系方式 -->
+        <section class="section contact">
+            <h2>联系我们</h2>
+            <p>客服邮箱：<a href="mailto:llcao@dces.cn">llcao@dces.cn</a></p>
+            <p>工作时间：周一至周五 9:00 - 18:00</p>
+            <p>官方网站：https://nuonuo-nuomi.github.io/mywebsite/</p>
+        </section>
+
+        <!-- 备案信息 -->
+        <section class="section">
+            <h2>网站备案信息</h2>
+            <p>版权所有 © 2025 诺诺只诺诺 保留所有权利</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>版权所有 © 2025 诺诺只诺诺</p>
+    </footer>
 </body>
 </html>
